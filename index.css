@@ -1,0 +1,71 @@
+
+* { font-family: "EB Garamond"; }
+body { background: #E5F8FA;
+       background-image: url("Group 3.png");
+     }
+main {
+    max-width: 70ch;
+    margin: 4em auto 11em;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+nav, date, sp {
+    background: #000000;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+nav > a, date > a, sp {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #FFF;
+    padding: 0 4em;
+}
+
+nav {
+    border-top: 2px solid #FEA8AD;
+}
+date, sp {
+    bottom: 2.7em;
+    padding: 1.5em;
+    background: #E5F8FA;
+    border-top: 1px solid #000;
+}
+sp {
+    bottom: 6em;
+    border-top: 0px;
+}
+
+date > a {
+    color: #000;
+    font-size: 1em;
+}
+
+
+* { box-sizing: border-box; }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+triangle {
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 628.13px;
+    height: 177.9px;
+    left: 443.81px;
+    top: 77.52px;
+    
+    border: 1px solid #62A5F4;
+    transform: rotate(120.21deg);
+}
+
